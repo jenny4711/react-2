@@ -24,7 +24,7 @@ class SnackOrBoozeApi {
   }
 
   componentDidUpdate(){
-    getSnacts()
+    getSnacks()
   }
 
 

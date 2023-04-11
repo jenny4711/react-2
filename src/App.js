@@ -65,6 +65,11 @@ function App() {
               <Home snacks={snacks} drinks={drinks} />
             </Route>
 
+            {/* However, you shouldn’t solve this by just cloning the FoodMenu and FoodItem components — 
+            you’d have so much duplicate code! Instead, turn these into generic components 
+            that can work with either food or drink lists/items. 
+            -changed to items and address */}
+
             <Route exact path="/snacks">
               <Menu items={snacks} address={"snacks"} title="Snacks" />
             </Route>
@@ -84,6 +89,10 @@ function App() {
             <Route path="/additem">
               <AddItem />
             </Route>
+
+            {/* Make sure you handle not-found pages — if a visitor tries to go to a link that doesn’t work, 
+            it should give a friendly 404-style message. If someone tries to go to a drink or food item that 
+            doesn’t exist, it should redirect to the drinks or food items listing page. */}
 
             <Route path="/*">
             <NotFound/>

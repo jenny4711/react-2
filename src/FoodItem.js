@@ -2,6 +2,9 @@ import React from "react";
 import { Redirect, useParams } from "react-router-dom";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 
+// The drink listing page should show a list of drink choices, 
+// with each being a link to the details about the drink, just like for food items.
+// change to items instead of snack
 function FoodItem({ items, cantFind }) {
   const { id } = useParams();
 

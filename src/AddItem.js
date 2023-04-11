@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import SnackOrBoozeApi from './Api'
 
-
+// Now that you have more things on your menu, you should add a page that lets site users add either a drink or a snack.
 const AddItem = () => {
   const ITEM={
     id: "",
@@ -32,6 +32,7 @@ console.log(item)
 
 
   };
+  // Post API (Add Item)
 
   const handleSubmit=async(e)=>{
     e.preventDefault();

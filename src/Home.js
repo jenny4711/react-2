@@ -21,6 +21,7 @@ function Home({drinks,snacks}) {
         </CardBody>
      
       </Card>
+       {/* The homepage should show the # of food items (“snacks”) and drink choices (“drinks”) */}
       <div className='length'>
         <h1>Now We Have</h1>
     <h3 className="font-weight-bold snack">Snacks : {snacks.length}</h3>

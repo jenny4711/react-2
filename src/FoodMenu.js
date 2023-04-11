@@ -11,7 +11,7 @@ import {
 } from "reactstrap";
 
 function FoodMenu({ items ,address}) {
-console.log(address)
+
 
 
   return (

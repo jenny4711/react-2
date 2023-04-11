@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import "./FoodMenu.css";
 import {
   Card,
@@ -10,7 +10,10 @@ import {
   ListGroupItem
 } from "reactstrap";
 
-function FoodMenu({ snacks }) {
+function FoodMenu({ items ,address}) {
+console.log(address)
+
+
   return (
     <section className="col-md-4">
       <Card>
@@ -23,12 +26,19 @@ function FoodMenu({ snacks }) {
             bulk of the card's content.
           </CardText>
           <ListGroup>
-            {snacks.map(snack => (
-              <Link to={`/snacks/${snack.id}`} key={snack.id}>
-                <ListGroupItem>{snack.name}</ListGroupItem>
+
+                      
+
+            {items.map(item => (
+       
+              <Link to={`/${address}/${item.id}`} key={item.id}>
+                <ListGroupItem>{item.name}</ListGroupItem>
               </Link>
+
+
             ))}
           </ListGroup>
+
         </CardBody>
       </Card>
     </section>

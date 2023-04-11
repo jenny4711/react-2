@@ -12,22 +12,35 @@ const BASE_API_URL = "http://localhost:5000";
 class SnackOrBoozeApi {
 
   static async getSnacks() {
-    const result = await axios.get(`${BASE_API_URL}/snacks`,{
-      withCredentials:true,
-      headers:{
-        Accept:'application/json'
-      }
-    });
+    const result = await axios.get(`${BASE_API_URL}/snacks`);
+    return result.data;
+  }
 
+  static async getDrinks(){
+    const result = await axios.get(`${BASE_API_URL}/drinks`);
     return result.data;
 
   }
 
-  componentDidUpdate(){
-    this.getSnacks()
+  static async addSnacks(items){
+   await axios.post(`${BASE_API_URL}/snacks`,items)
+    .then((res)=>{
+      console.log(res)
+    })
+    .catch((error)=>{
+      console.log(error)
+    })
   }
 
-
+  static async addDrinks(items){
+    await axios.post(`${BASE_API_URL}/drinks`,items)
+     .then((res)=>{
+       console.log(res)
+     })
+     .catch((error)=>{
+       console.log(error)
+     })
+   }
 
 }
 

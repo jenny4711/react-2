@@ -11,6 +11,7 @@ nav {
 nav a {
   color: #f0f2f5;
   text-decoration: none;
+ 
 }
 
 nav a.active {
@@ -36,4 +37,5 @@ nav a.active.navbar-brand {
 nav a:not(.navbar-brand):hover {
   font-weight: bold;
 }
+
 

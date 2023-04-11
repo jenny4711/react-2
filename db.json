@@ -27,6 +27,27 @@
       "description": "Crisp!",
       "recipe": "Open can.",
       "serve": "Immediately."
+    },
+    {
+      "id": "coke",
+      "name": "Coke",
+      "description": "\" Carbonated Drinks\"",
+      "recipe": "purchase",
+      "serve": "plastic bottle"
+    },
+    {
+      "id": "applejuice",
+      "name": "Apple-Juice",
+      "description": "sweet and healthy",
+      "recipe": "\"purchase\"",
+      "serve": "\"glass bottle\""
+    },
+    {
+      "id": "wine",
+      "name": "Wine",
+      "description": "wine",
+      "recipe": "purchase",
+      "serve": "glass bottle"
     }
   ],
   "snacks": [
@@ -50,6 +71,27 @@
       "description": "Tart and delicious.",
       "recipe": "Mix arugula, toasted walnuts, and thinly-sliced Parmesan cheese. Dress with lemon and olive oil.",
       "serve": "Place on tiny, precious little plates."
+    },
+    {
+      "id": "choco-chip",
+      "name": "Choco-Chip",
+      "description": "sweet!",
+      "recipe": "Purchase one container of choco-Chipes",
+      "serve": "Serve in a hand-thrown ceramic bowl"
+    },
+    {
+      "id": "sushi",
+      "name": "Sushi",
+      "description": "low-fish with rice",
+      "recipe": "low-fish with rice",
+      "serve": "wood plate"
+    },
+    {
+      "id": "pizza",
+      "name": "test",
+      "description": "\"Korean-Style Rice Roll\"",
+      "recipe": "\"Order\"",
+      "serve": "\"paper box\""
     }
   ]
 }

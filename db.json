@@ -48,6 +48,20 @@
       "description": "wine",
       "recipe": "purchase",
       "serve": "glass bottle"
+    },
+    {
+      "id": "kim-bap",
+      "name": "jjenny",
+      "description": "\"Korean-Style Rice Roll\"",
+      "recipe": "\"Kind of Roll\"",
+      "serve": "\"eat with noodle\""
+    },
+    {
+      "id": "r",
+      "name": "e",
+      "description": "w",
+      "recipe": "3",
+      "serve": "f"
     }
   ],
   "snacks": [
@@ -92,6 +106,20 @@
       "description": "\"Korean-Style Rice Roll\"",
       "recipe": "\"Order\"",
       "serve": "\"paper box\""
+    },
+    {
+      "id": "ff",
+      "name": "dd",
+      "description": "ss",
+      "recipe": "ee",
+      "serve": "www"
+    },
+    {
+      "id": "bulgogi",
+      "name": "Bulgogi",
+      "description": "koreans style sweet souce",
+      "recipe": "order",
+      "serve": "plate"
     }
   ]
 }

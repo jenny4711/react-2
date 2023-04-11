@@ -7,19 +7,86 @@ main {
   height: calc(100vh - 56px); /* router view - navbar height */
   overflow: scroll;
   color: white;
+  background-color: white;
 }
 
 .card {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
+  margin-top:6rem;
 }
 .length{
   display:flex;
   flex-direction:column;
+  justify-content: center;
   align-items: center;
   background-color: black;
-  padding:1px;
-  padding-top:2px;
+  margin-bottom: 10rem;
+  
+
+ 
 }
+.not-found{
+  width: 40rem;
+  height:40rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color:black;
+  background-color: white;
+
+}
+
+.not-found a{
+  color:white;
+  background-color:black;
+  padding:0.2rem;
+}
+
+section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:50rem;
+  background-color:black;
+}
+
+.AddItem{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 2rem;
+}
+.AddItem form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:1rem;
+
+}
+.AddItem input{
+  text-align: center;
+  width:20rem;
+}
+.AddItem-Submit{
+  border-style: none;
+  color:white;
+  background-color: black;
+  margin-top: 1rem;
+  
+}
+.AddItem-Submit:hover{
+  font-weight: bolder;
+}
+
